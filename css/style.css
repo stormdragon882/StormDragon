@@ -1,0 +1,23 @@
+.first-logo{
+	width: 133px;
+	fill: #ffffff;
+}
+.header {
+  background-image: url(https://raw.githubusercontent.com/stormdragon882/ReproDragon/master/mq-doplom/images/football_767.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-transform: uppercase;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
